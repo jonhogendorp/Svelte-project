@@ -14,4 +14,4 @@
 </h2>
 <button on:click={incrementBtn}>click to increase</button>
 
-<a href="/about">go to about</a>
+<a href="/about">go to about </a>
