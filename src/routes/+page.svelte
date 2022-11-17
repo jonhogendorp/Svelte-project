@@ -1,17 +1,21 @@
 <script>
-    let count = 0;
-
-    function incrementBtn (){
-        count += 1;
-    }
+  export let data;
+  console.log(data.props)
+  const series = data.props.popular
+  console.log(series)
+  import PopularMovies from "../components/PopularMovies.svelte";
+  
 </script>
 
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<h2>
-    Number:{count}
-</h2>
-<button on:click={incrementBtn}>click to increase</button>
+<section>
+   <PopularMovies {series}/>
+</section>
 
-<a href="/about">go to about </a>
+
+    
+<style>
+
+</style>
