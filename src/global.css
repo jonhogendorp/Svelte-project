@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+body{
+    margin: 0 0;
+}
+
+/* nav */
+
+nav{
+    padding: 0  5%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    box-shadow: 0 2px 7px 5px #cacaca3e;
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+/* serie-single-page */
+
+.genres{
+    margin: 20px 0;
+}
+.genre-button{
+    border-radius: 100px;
+    background-color: rgb(44, 0, 202);
+    border: 1px solid rgba(224, 112, 0);
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.series-indi-card{
+    margin: 150px;
+    width: 50%;
+}
+
+img{
+    width: 100%;
+    border-radius: 2rem;
+}
