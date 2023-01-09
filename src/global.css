@@ -15,14 +15,14 @@ body{
 
 nav{
     padding: 0  5%;
-    height: 100px;
+    height: 60px;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(238, 238, 238);
     box-shadow: 0 2px 7px 5px #cacaca3e;
     width: 100%;
     margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    align-items: center;
 }
 
 nav a{
@@ -30,10 +30,13 @@ nav a{
     font-size: 30px;
     font-weight: 700;
     color: black;
+    margin: 0 15px;
 }
 
 /* serie-single-page */
-
+.series-land{
+    margin: 0 5%;
+}
 .genres{
     margin: 20px 0;
 }

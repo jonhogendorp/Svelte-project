@@ -6,6 +6,8 @@
     console.log(genre)
 </script>
 
+
+
 <div class="container">
     <div class="series-indi-card">
         <div>
@@ -33,7 +35,8 @@
     </div>
 </div>
     
-    <style>
+<style>
+
     .genres{
         margin: 20px 0;
     }

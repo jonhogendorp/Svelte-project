@@ -29,6 +29,7 @@
         height: 5vh;
    }
    p{
+    margin: 5px 0;
     font-size: 0.6rem;
     font-family: Helvetica, sans-serif;
    }

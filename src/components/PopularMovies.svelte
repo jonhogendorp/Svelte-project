@@ -3,7 +3,7 @@
     import SeriesCard from "./SeriesCard.svelte";
 </script>
 
-<h1>PopularMovies</h1>
+<h1>Popular Series</h1>
 <div class="popular-series"> 
     <SeriesCard {series}/> 
 </div>
@@ -13,6 +13,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1rem;
-        margin: 0 5%;
+       
     }
 </style> 
