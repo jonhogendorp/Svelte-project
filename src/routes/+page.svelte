@@ -1,7 +1,7 @@
 <script>
   export let data;
   const series = data.props.popular
-  import PopularMovies from "../components/PopularMovies.svelte";
+  import PopularSeries from "../components/PopularSeries.svelte";
   import SearchSeries from "../components/SearchSeries.svelte";
   import "../global.css"; 
 </script>
@@ -12,7 +12,7 @@
 
 <section class="series-land">
   <SearchSeries/>
-  <PopularMovies {series}/>
+  <PopularSeries {series}/>
 </section>
 
 
